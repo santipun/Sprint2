@@ -1,0 +1,56 @@
+#titulo{
+    font-family: cursive;
+    background-color: paleturquoise;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+/*Estilo de index*/
+nav {
+    background-color:teal;
+    height: 50px;
+}
+
+nav button {
+    float: right;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    vertical-align: middle;
+    padding: 15px 32px
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#inicio {
+    text-align: center;
+    margin: auto;
+}
+
+/* Estilo de registro*/
+
+h2{
+    text-align: center;
+}
+
+#registrarse{
+    text-align: center;
+}
+
+.subtitulo{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+#enviar_registro{
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
