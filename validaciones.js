@@ -8,8 +8,12 @@ function validar_nombre_usuario(string) {
     //implementacion
 }
 
-function validar_edad_usuario(edad) {
-    //implementacion
+function validar_edad_usuario(edad){
+    if(typeof edad == 'number' && edad > 0 && edad >= 13 && edad < 110){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 function validar_contrasena(string) {
