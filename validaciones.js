@@ -41,7 +41,12 @@ function validar_edad_usuario(edad){
 }
 
 function validar_contrasena(string) {
-    //implementacion
+    if (/^[A-Za-z0-9]+$/.test(contrasena) == true && contrasena.length >= 6 ) {
+        return true;
+    }else{
+        return false;
+    }
+}
 }
 
 
