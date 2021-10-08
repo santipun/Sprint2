@@ -13,7 +13,7 @@ function agregarRegistro(){
 function OrdenarArreglo(registros){
     //implementacion
     
-    const ordenarPorEdad = (a,b)=>datos.edad - datos.edad;
+    const ordenarPorEdad = (a,b)=>a.edad - b.edad;
     registros.sort(ordenarPorEdad);
 
     for(let i=0; i<registros.length; i++){
