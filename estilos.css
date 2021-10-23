@@ -112,20 +112,35 @@ button{
 
 /* Estilo de registro*/
 
-/*h2{
-    text-align: center;
-}
 
-#registrarse{
-    text-align: center;
-}
-
-.subtitulo{
-    color: darkcyan;
+.subtituloRegistro{
+    color: rgb(17, 84, 172);
     font-weight: bold;
+    font-size: 30px;
+
+}
+
+#form_nuevo_usuario{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #enviar_registro{
-    background-color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}*/
+    background-color: rgb(17, 84, 172);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
