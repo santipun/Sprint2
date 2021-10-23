@@ -1,43 +1,118 @@
-#titulo{
+nav{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+nav a:hover{
+    background-color: rgb(151, 195, 238);
+}
+
+#inicio h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    color: rgb(1, 1, 87);
+}
+
+#inicio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitulo{
+    font-size: 2rem;
     font-family: cursive;
-    background-color: paleturquoise;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: rgb(17, 84, 172);
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+button{
+    background-color: rgb(17, 84, 172);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box{
+    float: left;
+    width: 24%;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box img{
+    width: 300px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.itemDestino{
+    margin: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itemDestino img{
+    width: 350px;
+    border-radius: 120px;
+}
+
+#testimonios p{
     text-align: center;
 }
 
-footer{
+#testimonios img{
+    width: 350px;
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#somos p{
     text-align: center;
 }
 
-/*Estilo de index*/
-nav {
-    background-color:teal;
-    height: 50px;
+#somos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
 }
 
-nav button {
-    float: right;
-    background-color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    vertical-align: middle;
-    padding: 15px 32px
-}
-
-form {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgray;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#inicio {
+#piepagina{
     text-align: center;
-    margin: auto;
 }
 
 /* Estilo de registro*/
 
-h2{
+/*h2{
     text-align: center;
 }
 
@@ -53,4 +128,4 @@ h2{
 #enviar_registro{
     background-color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
+}*/

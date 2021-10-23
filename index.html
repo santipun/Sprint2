@@ -1,30 +1,126 @@
 <!DOCTYPE html>
-<html lang="es">
-  
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <title>Sprint 2 Grupo 5</title>
-    <link rel="stylesheet" href="estilos.css">
-  </head>
-
-  <body>
-    <nav id= "horizontal_navbar">
-      <img id="landing_logo" src="img/logo.png" alt="https://www.pngkey.com/png/full/287-2871841_bicicleta-vintage-dibujo-png-noble-eightfold-path-wheel.png"  height="50" width="50">
-        <a id="irA_registro _usuario" href="registro.html"><button id="boton_registro_usuario">Registrarse</button></a>
-    </nav>
-
-    <section id="inicio">
-      <h1 id="titulo">CICLOTURISMO: DESCUBRE EL MUNDO PEDALEANDO</h1>
-      <br>
-      <p>El cicloturismo es el ciclismo a largas distancias, una actividad recreativa y no competitiva que <br>
-        combina la actividad física y el turismo. Consiste en viajar en bicicleta visitando los lugares que se encuentra <br>
-        uno a su paso. Se realiza por placer, no por competición, por lo que no se puede llegar a denominar práctica <br>
-        competitiva.</p>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Agencia de viajes: Traveling</title>
+    </head>
+    
+    <body>
+        <nav>
+            <div>
+                <a href="#inicio">Inicio</a>
+                <a href="#planes">Planes</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#somos">¿Quienes somos?</a>
+                <a href="registro.html">Registrarse</a>
+            </div>
+        </nav>
+        
+        <section id="inicio">
+            <h1>Agencia de viajes: Traveling</h1>
+            <img src="imagenes/logoAgencia.jpg" alt="Logo">
+        </section>
         <br>
-      <img src="img/imagenPortada.jpg" alt="https://images.squarespace-cdn.com/content/v1/5cd1dc2bf9df7d00015c8237/1588934693065-YDT94PB6UD4ZNKHNIHD8/ChileMontana+Patagonia+in+Two+Wheels+1500+x+1000.jpg?format=1000w" width="800" height="467">
-    </section>
-    <br>
-    <footer>Spring 1 - Grupo 5</footer>
-  
-  </body>
+        <section id="planes">
+            <h2 class="subtitulo">Planes</h2>
+            <div>
+                <div class="box">
+                    <img src="imagenes/europaPlanes.jpg" alt="Europa">
+                    <h3>Ronda Europa</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="box">
+                    <img src="imagenes/curazaoPlanes.jpg" alt="Curazao">
+                    <h3>Curazao para todos</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="box">
+                    <img src="imagenes/mexicoPlanes.jpg" alt="Mexico">
+                    <h3>Mexico te espera</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="box">
+                    <img src="imagenes/turquiaPlanes.jpg" alt="Turquia">
+                    <h3>Turquia increible</h3>
+                    <button>Más detalles</button><br> 
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="destinos">
+            <h2 class="subtitulo">Destinos</h2>
+            <div class="grid-container">
+               
+                <div class="itemDestino">
+                    <img src="imagenes/norteDestinos.jpg" alt="Europa">
+                    <h3>Norteamerica</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="itemDestino">
+                    <img src="imagenes/southDestinos.jpg" alt="Curazao">
+                    <h3>Suramerica</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="itemDestino">
+                    <img src="imagenes/europaDestinos.jpg" alt="Mexico">
+                    <h3>Europa</h3>
+                    <button>Más detalles</button><br>
+                </div>
+                
+                <div class="itemDestino">
+                    <img src="imagenes/asiaDestinos.jpg" alt="Turquia">
+                    <h3>Asia</h3>
+                    <button>Más detalles</button>
+                </div>              
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2 class="subtitulo">Testimonios</h2>
+            <div class="grid-container">
+                <div>
+                    <img src="imagenes/testigoUno.jpg" alt="Testimonio 1">
+                    <p>"There are many variations of passages of Lorem Ipsum available, but <br>
+                        the majority have suffered alteration in some form, by injected humour, <br>
+                        or randomised words which don't look even slightly believable. "</p>
+                </div>
+                <div>
+                    <img src="imagenes/testigoDos.jpg" alt="Testimonio 2">
+                    <p>"There are many variations of passages of Lorem Ipsum available, but <br>
+                        the majority have suffered alteration in some form, by injected humour, <br>
+                        or randomised words which don't look even slightly believable. "</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="somos">
+            <h2 class="subtitulo">¿Quienes somos?</h2>
+            <img src="imagenes/quienSomos.jpg" alt="¿quien somos?">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. <br>
+                It has roots in a piece of classical Latin literature from 45 BC, <br>
+                making it over 2000 years old. Richard McClintock, a Latin professor <br>
+                at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>
+        </section>
+
+        <footer id="piepagina">
+            <p>Copyright &copy;2021. Derechos reservados.</p> 
+        </footer>
+    </body>
+
 </html>
+
+
+
+
+
+
+
+
